@@ -1,20 +1,20 @@
 {
-  "name": "sage",
+  "name": "sage-with-space",
   "version": "8.4.2",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "author": "Nathachai Thongniran <inid3a@gmail.com>",
+  "homepage": "https://github.com/jojoee/sage-with-space/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git://github.com/jojoee/sage-with-space.git"
   },
   "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "https://github.com/jojoee/sage-with-space/issues/"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "url": "http://opensource.org/licenses/MIT/"
     }
   ],
   "scripts": {
