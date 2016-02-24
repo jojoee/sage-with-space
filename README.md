@@ -1,2 +1,5 @@
 # sage-with-space
-Sage (wordpress starter theme) with space (according to wordpress coding standards)
+Alternative repository for [sage](https://github.com/roots/sage) (wordpress starter theme) that have `space` according to [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
+
+## TODO
+- [ ] Check `ruleset.xml`
