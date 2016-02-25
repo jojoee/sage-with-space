@@ -3,7 +3,7 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 
 ## My step to add space
 1. Open `PhpStorm`
-2. Import `Code Style` from `PhpStorm-settings.jar`
+2. Import `Code Style` by copy and paste `sage-with-space.xml` into `PhpStorm` code style folder (e.g. `C:\Users\joe\.WebIde90\config\codestyles`)
 3. Reformat code (`Ctrl + Alt + L`) by `Sage with space` scheme
 4. Set `Filters` on `Reformat Code` dialog and run
     - Scope: `Project File`
@@ -38,5 +38,6 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 - [Code Style](https://www.jetbrains.com/phpstorm/help/code-style.html)
 - [Code Style. PHP](https://www.jetbrains.com/phpstorm/help/code-style-php.html)
 - [WordPress PHP Coding Standards](https://codex.wordpress.org/WordPress_Coding_Standards)
+- [Delicious Brains WordPress coding styles for PhpStorm](https://github.com/deliciousbrains/wp-phpstorm-code-styles)
 
 Now we still have an issue about reformat code in some files that's have mixing content (e.g. `php` file that has `php` and `html` code)
