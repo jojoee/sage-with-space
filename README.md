@@ -14,14 +14,14 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 ## PhpStorm settings
 1. Go to `Settings` panel (`Ctrl + Alt + S`)
 2. `Editor > Code Style > Default Indent Options`
-    - [ ] Use tab character
+    - Use tab character: (unchecked)
     - Tab size: 2
     - Indent size: 2
     - Continuation indent: 2
 
 3. `Editor > Code Style > PHP`
     - `Set from > Predefined style > Wordpress`
-    - [ ] Use tab character
+    - Use tab character: (unchecked)
     - Tab size: 2
     - Indent size: 2
     - Continuation indent: 2
