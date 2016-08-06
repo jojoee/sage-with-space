@@ -1,4 +1,5 @@
 # sage-with-space
+[![Build Status](https://travis-ci.org/jojoee/sage-with-space.svg)](https://travis-ci.org/jojoee/sage-with-space)
 Alternative repository for [sage](https://github.com/roots/sage) (wordpress starter theme) that have `space` according to [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
 
 ## My step to add space
