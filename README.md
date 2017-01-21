@@ -29,9 +29,28 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
     - Continuation indent: 2
 
 ## TODO
-- [ ] Check `ruleset.xml`
+* [ ] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
 - [ ] Check step 5
 - [ ] Check step 6
+
+## Changed from original Sage
+- Added
+  - sage-with-space.xml
+  - README-sage.md
+- Modified
+  - README.md
+  - style.css
+  - package.json
+  - LICENSE
+  - composer.json
+  - bower.json
+  - .travis.yml
+  - .gitignore
+- Removed
+  - ruleset.xml
+
+## Acknowledge issues
+- PhpStorm 9.0: Now we still have an issue about reformat code in some files that's have mixing content (e.g. `php` file that has `php` and `html` code)
 
 ## Reference
 - [WI-17786 Honor HTML Indentation Settings in PHP Files](https://youtrack.jetbrains.com/issue/WI-17786)
@@ -41,5 +60,3 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 - [Code Style. PHP](https://www.jetbrains.com/phpstorm/help/code-style-php.html)
 - [WordPress PHP Coding Standards](https://codex.wordpress.org/WordPress_Coding_Standards)
 - [Delicious Brains WordPress coding styles for PhpStorm](https://github.com/deliciousbrains/wp-phpstorm-code-styles)
-
-Now we still have an issue about reformat code in some files that's have mixing content (e.g. `php` file that has `php` and `html` code)
