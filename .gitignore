@@ -8,3 +8,7 @@ vendor
 
 bk
 .idea
+.github
+
+yarn.lock
+composer.lock
