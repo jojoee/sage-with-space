@@ -12,7 +12,8 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
     - File mask(s): `*.php`
 
 ## Updates
-- [ ] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
+- [x] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
+- [ ] Upgrade to 8.5.1
 
 ## Changed from original Sage
 - Add
@@ -20,7 +21,6 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 - Modify
   - .travis.yml
   - .gitignore
-- Remove
   - ruleset.xml
 
 ## Reference
