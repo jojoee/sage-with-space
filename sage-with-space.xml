@@ -13,14 +13,21 @@
     </value>
   </option>
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <CssCodeStyleSettings>
+    <option name="HEX_COLOR_LOWER_CASE" value="true" />
+    <option name="HEX_COLOR_LONG_FORMAT" value="true" />
+  </CssCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+    <option name="REFORMAT_C_STYLE_COMMENTS" value="false" />
     <option name="OBJECT_LITERAL_WRAP" value="2" />
   </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_ASSIGNMENTS" value="true" />
+    <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
+    <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
@@ -97,7 +104,11 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <option name="CLASS_BRACE_STYLE" value="1" />
     <option name="METHOD_BRACE_STYLE" value="1" />
     <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
@@ -105,7 +116,6 @@
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
-    <option name="SPACE_AROUND_UNARY_OPERATOR" value="true" />
     <option name="SPACE_WITHIN_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
