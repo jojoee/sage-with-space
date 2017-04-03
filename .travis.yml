@@ -45,7 +45,6 @@ script:
   - php -v
   - node -v
   - npm -v
-  - gulp -v
   - composer --version
-  - gulp
+  - npm run build
   - $PHPCS_DIR/scripts/phpcs -p ./*.php --standard=ruleset.xml
