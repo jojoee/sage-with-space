@@ -3,18 +3,6 @@
 
 Alternative repository for [sage](https://github.com/roots/sage) (wordpress starter theme) that have `space` according to [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
 
-## My step to add space
-1. Open `PhpStorm`
-2. Import `Code Style` by copy and paste `sage-with-space.xml` into `PhpStorm` code style folder
-3. Reformat code (`Ctrl + Alt + L`) by `Sage with space` scheme
-4. Set `Filters` on `Reformat Code` dialog and run
-    - Scope: `Project File`
-    - File mask(s): `*.php`
-
-## Updates
-- [x] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
-- [ ] Upgrade to 8.5.1
-
 ## Changed from original Sage
 - Add
   - README-sage-with-space.md
@@ -22,6 +10,20 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
   - .travis.yml
   - .gitignore
   - ruleset.xml
+  - package.json
+
+## My step to change code style
+1. Setup
+  - WordPress server
+  - Node.js, yarn, bower
+  - Composer, PHP_CodeSniffer and [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
+2. Using `sage-with-space.xml` to reformat all php files by PhpStorm
+3. Fix phpcs by `phpcbf -p ./*.php --standard=ruleset.xml`
+4. Fix phpcs (manual)
+5. Recheck phpcs by `phpcs -p ./*.php --standard=ruleset.xml`
+
+## Updates 
+- [ ] Upgrade to 8.5.1
 
 ## Reference
 - [WI-17786 Honor HTML Indentation Settings in PHP Files](https://youtrack.jetbrains.com/issue/WI-17786)
