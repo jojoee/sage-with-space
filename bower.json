@@ -1,8 +1,8 @@
 {
-  "name": "sage-with-space",
-  "homepage": "https://github.com/jojoee/sage-with-space/",
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
   "authors": [
-    "Nathachai Thongniran <inid3a@gmail.com>"
+    "Ben Word <ben@benword.com>"
   ],
   "license": "MIT",
   "private": true,

@@ -1,21 +1,27 @@
 {
-  "name": "sage-with-space",
+  "name": "roots/sage",
   "type": "wordpress-theme",
   "license": "MIT",
-  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap (with space, according to the wordpress coding style).",
-  "homepage": "https://github.com/jojoee/sage-with-space/",
+  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
+  "homepage": "https://roots.io/sage/",
   "authors": [
     {
-      "name": "Nathachai Thongniran",
-      "email": "inid3a@gmail.com",
-      "homepage": "https://github.com/jojoee/sage-with-space/"
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
     }
   ],
   "keywords": [
     "wordpress"
   ],
   "support": {
-    "issues": "https://github.com/jojoee/sage-with-space/issues/"
+    "issues": "https://github.com/roots/sage/issues",
+    "forum": "https://discourse.roots.io/"
   },
   "require": {
     "php": ">=5.4.0",
