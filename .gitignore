@@ -1,12 +1,17 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Built
 dist
+
+# Dependencies
 bower_components
 node_modules
-npm-debug.log
 vendor
 
-bk
+# Log
+npm-debug.log
+
+# IDE && Editor
 .idea
-.github
-composer.lock
+.vscode
+
+# Backup
+bk
