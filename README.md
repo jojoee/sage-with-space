@@ -5,33 +5,14 @@ Alternative repository for [sage](https://github.com/roots/sage) (wordpress star
 
 ## My step to add space
 1. Open `PhpStorm`
-2. Import `Code Style` by copy and paste `sage-with-space.xml` into `PhpStorm` code style folder (e.g. `C:\Users\joe\.WebIde90\config\codestyles`)
+2. Import `Code Style` by copy and paste `sage-with-space.xml` into `PhpStorm` code style folder
 3. Reformat code (`Ctrl + Alt + L`) by `Sage with space` scheme
 4. Set `Filters` on `Reformat Code` dialog and run
     - Scope: `Project File`
     - File mask(s): `*.php`
-5. Fix `base.php` (`php` code in `html` comment)
-6. Fix `templates/entry-meta.php` (indent `html` in `php` file)
-
-## PhpStorm settings
-1. Go to `Settings` panel (`Ctrl + Alt + S`)
-2. `Editor > Code Style > Default Indent Options`
-    - Use tab character: (unchecked)
-    - Tab size: 2
-    - Indent size: 2
-    - Continuation indent: 2
-
-3. `Editor > Code Style > PHP`
-    - `Set from > Predefined style > Wordpress`
-    - Use tab character: (unchecked)
-    - Tab size: 2
-    - Indent size: 2
-    - Continuation indent: 2
 
 ## TODO
-* [ ] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
-- [ ] Check step 5
-- [ ] Check step 6
+- [ ] Fix `.travis.yml` by implementing [phpcs - WordPress-Coding-Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards)
 
 ## Changed from original Sage
 - Added
